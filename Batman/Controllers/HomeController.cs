@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Batman.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
